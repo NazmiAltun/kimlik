@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30225.117
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{F28F06F4-CCA1-44C8-A903-C8E22156FF0C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{335C1D15-2779-468C-8AC8-CD9D0EA5045E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kimlik", "src\Kimlik\Kimlik.csproj", "{B9A2B3D3-31A8-477A-94A4-5A259AEABF14}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kimlik.Tests", "tests\Kimlik.Tests\Kimlik.Tests.csproj", "{7CE552CC-B41F-4DE8-943C-4BF1643927A9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B9A2B3D3-31A8-477A-94A4-5A259AEABF14}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B9A2B3D3-31A8-477A-94A4-5A259AEABF14}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B9A2B3D3-31A8-477A-94A4-5A259AEABF14}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B9A2B3D3-31A8-477A-94A4-5A259AEABF14}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7CE552CC-B41F-4DE8-943C-4BF1643927A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7CE552CC-B41F-4DE8-943C-4BF1643927A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7CE552CC-B41F-4DE8-943C-4BF1643927A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7CE552CC-B41F-4DE8-943C-4BF1643927A9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B9A2B3D3-31A8-477A-94A4-5A259AEABF14} = {F28F06F4-CCA1-44C8-A903-C8E22156FF0C}
+		{7CE552CC-B41F-4DE8-943C-4BF1643927A9} = {335C1D15-2779-468C-8AC8-CD9D0EA5045E}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A9E9ABA1-F170-4324-B213-66BDFE1DEA9D}
+	EndGlobalSection
+EndGlobal
