@@ -2,3 +2,5 @@
 [Oo]bj/
 .vs/
 coverage/
+node_modules/
+*.log

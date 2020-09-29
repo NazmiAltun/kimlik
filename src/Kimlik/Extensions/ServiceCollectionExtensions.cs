@@ -8,7 +8,9 @@ namespace Kimlik.Extensions
         public static IServiceCollection AddCustomHealthChecks(this IServiceCollection services)
         {
             services.AddHealthChecks()
-                .AddCheck("self", () => HealthCheckResult.Healthy("OK!"), tags: new[] { "self" });
+                .AddCheck("self", 
+                    () => HealthCheckResult.Healthy("OK!"), 
+                    new[] { "self" });
 
             return services;
         }

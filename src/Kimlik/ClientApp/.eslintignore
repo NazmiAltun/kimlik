@@ -1,0 +1,11 @@
+node_modules
+storybook-static
+coverage
+yarn.lock
+dist
+*.json
+*.config.js
+*.md
+*.log
+*.sh
+*.mp4

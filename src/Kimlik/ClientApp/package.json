@@ -1,0 +1,10 @@
+{
+  "name": "kimlik",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "description": "User Identity and Management",
+  "repository": "https://github.com/NazmiAltun/kimlik.git",
+  "author": "Nazmi Altun <nazmialtun@windowslive.com>",
+  "license": "MIT",
+  "private": false
+}
